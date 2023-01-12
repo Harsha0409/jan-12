@@ -1,0 +1,22 @@
+Create create a class with two private data members of integer type and member function to input values for data members in c++
+
+#include <iostream>
+using namespace std;
+
+    class calculate{   
+        public:
+        int a,b;
+        int addition()
+        {
+            return a+b;
+        }
+    };
+    int main()
+    {
+        caluculate cal;
+        cal.a=10;
+        cal.b=20;
+        cout<<cal.addition();
+        
+    }
+    
